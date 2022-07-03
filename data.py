@@ -1,0 +1,32 @@
+directed_graph_data = {
+    'a': ['b', 'c'],
+    'b': ['c', 'd'],
+    'c': ['e'],
+    'd': ['f'],
+    'e': [],
+    'f': [],
+}
+
+has_path_graph_data = {
+    'f': ['g', 'i'],
+    'g': ['h'],
+    'h': [],
+    'i': ['g', 'k'],
+    'j': ['i'],
+    'k': [],
+}
+
+undirected_graph_data = {
+    'edges': [['i', 'j'], ['k', 'i'], ['m', 'k'], ['k', 'l'], ['o', 'n']],
+    'nodes': ['i', 'j', 'k', 'l', 'm', 'n', 'o' ],
+}
+
+largest_component_graph_data = {
+    0: [8, 1, 5],
+    1: [0],
+    5: [0, 8],
+    8: [0, 5],
+    2: [3, 4],
+    3: [2, 4],
+    4: [3, 2]
+}
