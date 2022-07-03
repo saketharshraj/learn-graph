@@ -1,6 +1,5 @@
 # For finding the shortest path between two nodes in a graph, bfs id optimal choice.
 
-from tracemalloc import start
 from build_graph import build_graph
 from data import shortest_path_graph_data
 from queue import Queue
