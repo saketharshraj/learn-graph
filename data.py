@@ -30,3 +30,8 @@ largest_component_graph_data = {
     3: [2, 4],
     4: [3, 2]
 }
+
+shortest_path_graph_data = {
+    'edges' : [[1,2], [2,3], [3,4], [4,5], [5,6], [6,1]],
+    'nodes' : [x for x in range(1, 7)]
+}
