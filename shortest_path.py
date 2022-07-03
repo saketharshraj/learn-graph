@@ -24,6 +24,7 @@ def find_shortest_path(graph, node: Node, ending_value, visited=set()):
                 neighbor_node = Node(neighbor, current_node.distance + 1)
                 queue.put(neighbor_node)
                 visited.add(neighbor)
+    return -1
 
 
 nodes = shortest_path_graph_data['nodes']
