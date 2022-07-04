@@ -1,4 +1,3 @@
-from distutils.command.build import build
 from data import undirected_graph_data
 from build_graph import build_graph
 
