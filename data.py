@@ -53,3 +53,15 @@ minimum_island_size_data = [
     ['L', 'W', 'W', 'L', 'L'],
     ['L', 'L', 'W', 'W', 'W'],
 ]
+
+directed_acyclic_graph_data = {
+    'a': ['b', 'c'],
+    'b': ['g', 'd'],
+    'c': ['e', 'f'],
+    'd': ['h'],
+    'e': [],
+    'f': ['i', 'd'],
+    'g': [],
+    'h': [],
+    'i': [],
+}
